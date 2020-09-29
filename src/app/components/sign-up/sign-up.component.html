@@ -1,0 +1,31 @@
+<section id="signUP">
+    <div class="container">
+        <form [formGroup]="signUp" (ngSubmit)="FormData()">
+            <div class="w-50 m-auto form-row signUpForm">
+                <div class="form-group col-md-6">
+                    <label class="text-white text-capitalize" for="">first name</label>
+                    <input type="text" formControlName="firstName" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="text-white text-capitalize" for="">last name</label>
+                    <input type="text" formControlName="lastName" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="text-white text-capitalize" for="">email</label>
+                    <input type="email" formControlName="email" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="text-white text-capitalize" for="">age</label>
+                    <input type="number" formControlName="age" class="form-control">
+                </div>
+                <div class="form-group col-md-12">
+                    <label class="text-white text-capitalize" for="">password</label>
+                    <input type="password" formControlName="password" class="form-control">
+                </div>
+
+                <button type="submit" class="btn bg-secondary w-100 text-capitalize">sign up</button>
+
+            </div>
+        </form>
+    </div>
+</section>

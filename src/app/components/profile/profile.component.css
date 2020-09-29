@@ -1,0 +1,14 @@
+#profile {
+    min-height: 100vh;
+    background-color: #282e31 !important;
+}
+
+.note {
+    min-height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+i {
+    cursor: pointer;
+}
